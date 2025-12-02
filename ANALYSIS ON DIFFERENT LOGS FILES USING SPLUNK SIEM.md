@@ -22,3 +22,20 @@ HTTP logs show details about website visits, requests, and responses. They help 
 
 (Sample SMTP log file will be added here)
 SMTP logs show email sending activity. They help detect spam, phishing, or any unusual email behavior.
+
+# Sample SPL queries used for analyzing the HTTP log data are given below
+
+# 1. Search for HTTP Events :
+
+Open Splunk interface and navigate to the search bar.
+
+Enter the following search query to retrieve SMTP events
+
+=>>>   Example : index=<your_smtp_index> sourcetype=<your_smtp_sourcetype>    <<<=
+
+
+
+# 2. Analyze Web Traffic Patterns
+
+
+
