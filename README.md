@@ -3,40 +3,40 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 # Installing Splunk :
 
-1.Open the official Splunk website (Splunk Enterprise page).
+1. Open the official Splunk website (Splunk Enterprise page).
 
-2.Download Splunk Enterprise (Free trial: up to 500 MB/day for 60 days).
+2. Download Splunk Enterprise (Free trial: up to 500 MB/day for 60 days).
 
-3.Choose the installer that matches your OS (Windows / Linux / macOS).
+3. Choose the installer that matches your OS (Windows / Linux / macOS).
 
-4.Run the installer and follow on-screen prompts.
+4. Run the installer and follow on-screen prompts.
 
-5.During setup, create a local admin username and password when prompted.
+5. During setup, create a local admin username and password when prompted.
 
-6.Finish installation and start Splunk.
+6. Finish installation and start Splunk.
 
-7.Access Splunk Web at http://localhost:8000
+7. Access Splunk Web at http://localhost:8000
  (or http://<your-ip>:8000) and log in with the credentials you created.
 
 # Splunk Apps
-1.Identify the App/Add-on needed (e.g., Technology Add-on, CIM, Security Essentials).
+1. Identify the App/Add-on needed (e.g., Technology Add-on, CIM, Security Essentials).
 
 
 # Data Ingestion and Parsing :
 
-I.dentify your data sources (log files, CSV, JSON, syslog, Windows event logs, etc.).
+1. dentify your data sources (log files, CSV, JSON, syslog, Windows event logs, etc.).
 
-2.Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
+2. Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
 
-3.Configure input in Splunk (Settings → Data Inputs) with correct source type and path/endpoint.
+3. Configure input in Splunk (Settings → Data Inputs) with correct source type and path/endpoint.
 
-4.Ensure timestamps are recognized and timezone is correct.
+4. Ensure timestamps are recognized and timezone is correct.
 
-5.Let Splunk parse events and assign default fields (source, sourcetype, host).
+5. Let Splunk parse events and assign default fields (source, sourcetype, host).
 
-6.If needed, create or edit props.conf / transforms.conf to adjust parsing, line breaking, or field extractions.
+6. If needed, create or edit props.conf / transforms.conf to adjust parsing, line breaking, or field extractions.
 
-7.Test with sample events and verify indexed fields in Search.
+7. Test with sample events and verify indexed fields in Search.
 
 # Basic SPL Commands :
 
@@ -56,12 +56,12 @@ dedup – Removes duplicate events based on specified fields.
 
 # Dashboards and Log Analysis 
 
-First, decide what you want to monitor or investigate in your dashboard.
+1. First, decide what you want to monitor or investigate in your dashboard.
 
-Write SPL queries that fetch the exact data or metrics you need.
+2. Write SPL queries that fetch the exact data or metrics you need.
 
-Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
+3. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
 
-Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
+4. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
 
-Under the Dashboards section, you can find and open all the dashboards you have created or saved.
+5. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
