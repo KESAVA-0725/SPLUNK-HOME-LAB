@@ -68,10 +68,12 @@ Example : index=web sourcetype=access_combined | stats count by status
 
 1. First, decide what you want to monitor or investigate in your dashboard.
 
-2. Write SPL queries that fetch the exact data or metrics you need.
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/dashboard%20p1.png?raw=true)
 
-3. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
+3. Write SPL queries that fetch the exact data or metrics you need.
 
-4. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
+4. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
 
-5. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
+5. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
+
+6. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
