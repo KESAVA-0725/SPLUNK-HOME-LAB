@@ -5,23 +5,38 @@ Below, I will attach the sample log files and explain each log type in simple wo
 
 # 1. DNS Log Analysis
 
-(Sample DNS log file will be added here)
-DNS logs show which websites or domains were looked up by users. They help us find suspicious domain activity.
+Attaching the Sample lof file for practice.
+
+Obtain sample DNS log file in a suitable format (e.g., text files).
+
+Ensure the log files contain relevant DNS events, including source IP, destination IP, domain name, query type, response code, etc.
+
+Save the sample log files in a directory accessible by the Splunk instance.
 
 # 2. DHCP Log Analysis
 
-(Sample DHCP log file will be added here)
-DHCP logs show which devices joined the network and what IP address they received. Useful for tracking unknown devices.
+Obtain sample  in a suitable format.
+
+Ensure the log files contain relevant DHCP events, including timestamps, IP address assignments, lease durations, client identifiers, etc.
+
+Save the sample log files in a directory accessible by the Splunk instance.
 
 # 3. HTTP Log Analysis
 
-(Sample HTTP log file will be added here)
-HTTP logs show details about website visits, requests, and responses. They help identify errors and suspicious web activity.
+Obtain sample HTTP log files in a suitable format (e.g., text files).
+
+Ensure the log files contain relevant HTTP events, including timestamps, request methods, URLs, response codes, user agents, etc.
+
+Save the sample log files in a directory accessible by the Splunk instance.
 
 # 4. SMTP Log Analysis
 
-(Sample SMTP log file will be added here)
-SMTP logs show email sending activity. They help detect spam, phishing, or any unusual email behavior.
+Obtain sample SMTP log file in a suitable format (e.g., text files).
+
+Ensure the log files contain relevant SMTP events, including timestamps, sender and recipient addresses, email subjects, etc.
+
+Save the sample log files in a directory accessible by the Splunk instance.
+
 
 # Sample SPL queries used for analyzing the HTTP log data are given below
 
@@ -52,7 +67,7 @@ Enter the following search query to retrieve SMTP events
 
 4. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%204.png?raw=true)
 
-   ===========================================================================================
+   =========================================================================================
 
 5.![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%205.png?raw=true)
 
