@@ -40,19 +40,29 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 # Basic SPL Commands :
 
-search – Finds events in the index based on keywords, fields, or conditions.
-stats – Generates statistical summaries like count, sum, avg, max, etc.
-timechart – Creates time-based charts by grouping results over time.
-top – Shows the most frequently occurring values of a field.
-chart – Produces custom charts by grouping data into rows and columns.
-eval – Creates new calculated fields or modifies existing ones.
-rex – Extracts fields from raw events using regular expressions.
-spath – Extracts fields from JSON data structures.
-where – Filters results based on logical or comparison conditions.
-sort – Sorts events or statistical results in ascending/descending order.
-dedup – Removes duplicate events based on specified fields.
+=> search – Finds events in the index based on keywords, fields, or conditions.
 
-=> Example : index=web sourcetype=access_combined | stats count by status
+=> stats – Generates statistical summaries like count, sum, avg, max, etc.
+
+=> timechart – Creates time-based charts by grouping results over time.
+
+=> top – Shows the most frequently occurring values of a field.
+
+=> chart – Produces custom charts by grouping data into rows and columns.
+
+=> eval – Creates new calculated fields or modifies existing ones.
+
+=> rex – Extracts fields from raw events using regular expressions.
+
+=> spath – Extracts fields from JSON data structures.
+
+=> where – Filters results based on logical or comparison conditions.
+
+=> sort – Sorts events or statistical results in ascending/descending order.
+
+=> dedup – Removes duplicate events based on specified fields.
+
+Example : index=web sourcetype=access_combined | stats count by status
 
 # Dashboards and Log Analysis 
 
