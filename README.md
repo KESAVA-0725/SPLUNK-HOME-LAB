@@ -28,17 +28,19 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 1. dentify your data sources (log files, CSV, JSON, syslog, Windows event logs, etc.).
 
-2. Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/parsing.png?raw=true)
 
-3. Configure input in Splunk (Settings → Data Inputs) with correct source type and path/endpoint.
+3. Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
 
-4. Ensure timestamps are recognized and timezone is correct.
+4. Configure input in Splunk (Settings → Data Inputs) with correct source type and path/endpoint.
 
-5. Let Splunk parse events and assign default fields (source, sourcetype, host).
+5. Ensure timestamps are recognized and timezone is correct.
 
-6. If needed, create or edit props.conf / transforms.conf to adjust parsing, line breaking, or field extractions.
+6. Let Splunk parse events and assign default fields (source, sourcetype, host).
 
-7. Test with sample events and verify indexed fields in Search.
+7. If needed, create or edit props.conf / transforms.conf to adjust parsing, line breaking, or field extractions.
+
+8. Test with sample events and verify indexed fields in Search.
 
 # Basic SPL Commands :
 
