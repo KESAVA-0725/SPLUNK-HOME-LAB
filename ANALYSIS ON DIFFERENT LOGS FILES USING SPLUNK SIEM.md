@@ -34,8 +34,11 @@ Enter the following search query to retrieve SMTP events
 =>>>   Example : index=<your_smtp_index> sourcetype=<your_smtp_sourcetype>    <<<=
 
 
-
 # 2. Analyze Web Traffic Patterns
 
-
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%201.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%202.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%203.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%204.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%205.png?raw=true)
 
