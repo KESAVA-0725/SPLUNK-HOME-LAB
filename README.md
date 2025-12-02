@@ -74,6 +74,10 @@ Example : index=web sourcetype=access_combined | stats count by status
 
 4. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
 
-5. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
+ ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/dashboard%20p2.png?raw=true)
 
-6. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
+6. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
+
+7. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
+
+ ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/dashboard%20p3.png?raw=true)
