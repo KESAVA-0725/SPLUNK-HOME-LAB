@@ -5,7 +5,7 @@ Below, I will attach the sample log files and explain each log type in simple wo
 
 # 1. DNS Log Analysis
 
-Attaching the Sample lof file for practice.
+Attaching the Sample log file for practice.
 
 Obtain sample DNS log file in a suitable format (e.g., text files).
 
