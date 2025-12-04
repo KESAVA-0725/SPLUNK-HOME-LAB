@@ -49,24 +49,24 @@ Enter the following search query to retrieve SMTP events
 
 =>>>   Example : index=<your_smtp_index> sourcetype=<your_smtp_sourcetype>    <<<=
 
-![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/Entering%20view.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/Entering%20view.png?raw=true)
 
 
 # 2. Analyze Web Traffic Patterns
 
-1. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%201.png?raw=true)
+1. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/sample%201.png?raw=true)
 
   ===========================================================================================
 
-2. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%202.png?raw=true)
+2. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/sample%202.png?raw=true)
 
   ===========================================================================================
 
-3. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%203.png?raw=true)
+3. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/sample%203.png?raw=true)
 
  ===========================================================================================
 
-4. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%204.png?raw=true)
+4. ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/sample%204.png?raw=true)
 
    =========================================================================================
 
