@@ -37,7 +37,7 @@ Ensure the log files contain relevant SMTP events, including timestamps, sender 
 
 Save the sample log files in a directory accessible by the Splunk instance.
 
-# (SAMPLE LOG FILES AVAILABLE IN THE REPOSITORY => dhcp.log.gz , dns.log.gz , smtp.log.gz )
+## (SAMPLE LOG FILES AVAILABLE IN THE SAMPLE LOGS FILES => ( dhcp.log.gz , dns.log.gz , smtp.log.gz )
 
 # Sample SPL queries used for analyzing the HTTP log data are given below
 
