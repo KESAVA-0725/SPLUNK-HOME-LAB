@@ -26,6 +26,8 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 # Data Ingestion and Parsing :
 
+## Data ingestion
+
 1. dentify your data sources (log files, CSV, JSON, syslog, Windows event logs, etc.).
 
 ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/parsing.png?raw=true)
