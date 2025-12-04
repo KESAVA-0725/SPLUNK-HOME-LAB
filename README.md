@@ -7,17 +7,17 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/download%20p2.png?raw=true)
 
-3. Download Splunk Enterprise (Free trial: up to 500 MB/day for 60 days).
+2. Download Splunk Enterprise (Free trial: up to 500 MB/day for 60 days).
 
-4. Choose the installer that matches your OS (Windows / Linux / macOS).
+3. Choose the installer that matches your OS (Windows / Linux / macOS).
 
-5. Run the installer and follow on-screen prompts.
+4. Run the installer and follow on-screen prompts.
 
-6. During setup, create a local admin username and password when prompted.
+5. During setup, create a local admin username and password when prompted.
 
-7. Finish installation and start Splunk.
+6. Finish installation and start Splunk.
 
-8. Access Splunk Web at http://localhost:8000
+7. Access Splunk Web at http://localhost:8000
  (or http://<your-ip>:8000) and log in with the credentials you created.
 
 # Splunk Apps
@@ -30,17 +30,17 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/parsing.png?raw=true)
 
-3. Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
+2. Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
 
-4. Configure input in Splunk (Settings → Data Inputs) with correct source type and path/endpoint.
+3. Configure input in Splunk (Settings → Data Inputs) with correct source type and path/endpoint.
 
-5. Ensure timestamps are recognized and timezone is correct.
+4. Ensure timestamps are recognized and timezone is correct.
 
-6. Let Splunk parse events and assign default fields (source, sourcetype, host).
+5. Let Splunk parse events and assign default fields (source, sourcetype, host).
 
-7. If needed, create or edit props.conf / transforms.conf to adjust parsing, line breaking, or field extractions.
+6. If needed, create or edit props.conf / transforms.conf to adjust parsing, line breaking, or field extractions.
 
-8. Test with sample events and verify indexed fields in Search.
+7. Test with sample events and verify indexed fields in Search.
 
 ## Field Extraction in Splunk :
 
@@ -50,7 +50,17 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 3. If the default extracted fields are not enough, we can manually create custom field extractions to parse additional information from the logs.
 
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/Screenshot%202025-11-27%20181901.png?raw=true)
+
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/Screenshot%202025-11-27%20182202.png?raw=true)
+
 4. Using the Field Extractor (FX) or Regular Expressions (regex), we can highlight sample log entries and define new fields based on patterns in the data.
+
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/Screenshot%202025-11-27%20182320.png?raw=true)
+
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/Screenshot%202025-11-27%20182347.png?raw=true)
+
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/Screenshot%202025-11-27%20182426.png?raw=true)
 
 5. These custom fields make the logs easier to analyze, allowing Splunk to break unstructured text into meaningful attributes like usernames, IP addresses, URLs, actions, status codes, etc.
 
@@ -86,14 +96,14 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/dashboard%20p1.png?raw=true)
 
-3. Write SPL queries that fetch the exact data or metrics you need.
+2. Write SPL queries that fetch the exact data or metrics you need.
 
-4. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
+3. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
 
  ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/dashboard%20p2.png?raw=true)
 
-6. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
+4. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
 
-7. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
+5. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
 
  ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/dashboard%20p3.png?raw=true)
