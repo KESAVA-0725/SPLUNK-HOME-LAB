@@ -15,6 +15,8 @@ Save the sample log files in a directory accessible by the Splunk instance.
 
 # 2. DHCP Log Analysis
 
+Attaching the Sample log file [SMTP log file](SAMPLE%20LOGS/smtp.log.gz) for practice
+
 Obtain sample  in a suitable format.
 
 Ensure the log files contain relevant DHCP events, including timestamps, IP address assignments, lease durations, client identifiers, etc.
@@ -30,6 +32,8 @@ Ensure the log files contain relevant HTTP events, including timestamps, request
 Save the sample log files in a directory accessible by the Splunk instance.
 
 # 4. SMTP Log Analysis
+
+Attaching the Sample log file [DHCP log file](SAMPLE%20LOGS/dhcp.log.gz) for practice
 
 Obtain sample SMTP log file in a suitable format (e.g., text files).
 
