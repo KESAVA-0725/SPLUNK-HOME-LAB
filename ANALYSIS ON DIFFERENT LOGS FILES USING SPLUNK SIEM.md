@@ -70,5 +70,5 @@ Enter the following search query to retrieve SMTP events
 
    =========================================================================================
 
-5.![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/sample%205.png?raw=true)
+5.![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/sample%205.png?raw=true)
 
