@@ -5,7 +5,7 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 1. Open the official Splunk website (Splunk Enterprise page).
 
-![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/download%20p2.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/download%20p2.png?raw=true)
 
 3. Download Splunk Enterprise (Free trial: up to 500 MB/day for 60 days).
 
@@ -28,7 +28,7 @@ This repository covers Installing Splunk, Splunk Apps, Data Ingestion and Parsin
 
 1. dentify your data sources (log files, CSV, JSON, syslog, Windows event logs, etc.).
 
-![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/parsing.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/parsing.png?raw=true)
 
 3. Choose an ingestion method: file monitor, HTTP Event Collector, syslog, universal forwarder, or scripted input.
 
@@ -72,16 +72,16 @@ Example : index=web sourcetype=access_combined | stats count by status
 
 1. First, decide what you want to monitor or investigate in your dashboard.
 
-![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/dashboard%20p1.png?raw=true)
+![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/dashboard%20p1.png?raw=true)
 
 3. Write SPL queries that fetch the exact data or metrics you need.
 
 4. Create dashboard panels like charts, tables, or single-value displays using those SPL queries.
 
- ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/dashboard%20p2.png?raw=true)
+ ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/dashboard%20p2.png?raw=true)
 
 6. Add interactive options such as a time picker or dropdown filters so users can easily adjust the dashboard view.
 
 7. Under the Dashboards section, you can find and open all the dashboards you have created or saved.
 
- ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/dashboard%20p3.png?raw=true)
+ ![image](https://github.com/KESAVA-0725/SPLUNK-HOME-LAB/blob/main/images/dashboard%20p3.png?raw=true)
